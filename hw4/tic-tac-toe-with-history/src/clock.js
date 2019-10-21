@@ -40,7 +40,7 @@ export default class Clock extends Component {
 
         return (
             <div style={{ padding: 50 }}>
-                <p> This is player {this.props.player}'s time</p>
+                <p style={{ paddingLeft: 20, fontSize:"24px", fontWeight:"bold" }}> Current Time</p>
                 <svg viewBox="0 0 40 40" id={this.props.id}>
                     <circle cx="20" cy="20" r="19" />
                     <text x="0" y="0" className="tiaText">PARI</text>
@@ -67,7 +67,7 @@ export default class Clock extends Component {
 
                 </svg>
 
-                <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
+                <h2 style={{ paddingLeft: 20}} >It is {this.state.date.toLocaleTimeString()}.</h2>
 
 
 
