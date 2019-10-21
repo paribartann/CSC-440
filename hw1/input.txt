@@ -1,0 +1,3 @@
+my name is & \paribartan dhakal. this ShouLd be in speCified case.
+this ShouLd be in specified case.
+Write javascript funCtions that will Transform.

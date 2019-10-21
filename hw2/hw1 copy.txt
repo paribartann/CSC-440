@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Activity Tracker</title>
+    <link rel="stylesheet" href="hw1.css" >
+  </head>
+
+  <body>
+    <header class="headerElement">
+	  <h1 >School Activities Tracker</h1>
+	   <img src="pari.png">
+	  
+	</header>
+	
+	
+	<div class="semester">
+			
+		<a href=""><h2>Fall</h2></a>
+		<a href=""><h2>Spring</h2></a>
+		<a href=""><h2>Summer</h2></a>
+		
+	</div>
+
+	<form action="" method="get" class="form-example">
+			<div class="form-example">
+				<label >Enter your name:
+				<input type="text" name="name" required>
+				</label>
+			</div>
+			<div class="form-example">
+				<label>Enter your email:
+				<input type="email" name="email" required>
+				</label>
+			</div>
+			<div class="form-example">
+				<input type="submit" value="Subscribe!">
+			</div>
+	</form>
+	
+	<div class="mainContent">
+
+		<div class="leftSide">
+
+			<div class="leftSideUp">
+				<nav>
+					<h2 id="navHeader">Navigation menu</h2>
+						<ul style="display:flex">
+							<a href="" id="classi">Freshman</a>
+							<a href="" id="classi">Sophomore</a>
+							<a href="" id="classi">Junior</a>
+							<a href="" id="classi">Senior</a>
+						</ul>
+				</nav>
+		
+				<br />
+			</div>
+
+			<div class="leftSideDown">
+				<div class="leftSideDownLeft">
+						<main>
+								<section>
+			
+									<header>    
+										<h2 id="rightSideHeader">Courses</h2>    
+									</header>
+								
+									<h3><a href="#Expand1">Course A</a></h3>
+									<h3><a href="#Expand2">Course B</a></h3>
+									<h3><a href="#Expand3">Course C</a></h3>
+			
+								</section>
+							</main>
+				</div>
+
+				<div class="leftSideDownRight">
+					<ul class="expando" id="Expand1">
+						<li class="print">A for Astronomy!</li>
+					</ul>   
+					
+					<ul class="expando" id="Expand2">
+							<li class="print">Course B</li>
+							<li class="print">Basic programming concepts</li>
+							<li class="print">Datatypes</li>
+							<li class="print">Loops</li>
+							<li class="print">Branches</li>
+					</ul>
+					
+					<ul class="expando" id="Expand3">
+							<li class="print">Basic math skills</li>
+							<li class="print">Mostly algebra</li>
+							<li class="print">Polynomials</li>
+							<li class="print">Find the roots</li>
+							<li class="print">Multiply polynomials</li>
+							<li class="print">Rational polynomials</li>
+					</ul>
+
+
+				</div>
+
+			</div>
+					
+
+		</div>
+
+		<div class="rightSide">
+				
+						<h2 id="sideHeader" style="padding-left:90px">Time and money</h2>
+
+						<ul class="tag-cloud" style="padding-left:150px">
+						  <li><a href="" rel="tag" class="w2">Course A</a></li>
+						  <li><a href="" rel="tag" class="w8">Course B</a></li>
+						  <li><a href="" rel="tag" class="w3">Course C</a></li>
+						  <li><a href="" rel="tag" class="w6">Homeworks</a></li>
+						  <li><a href="" rel="tag" class="w8">Sports</a></li>
+						  <li><a href="" rel="tag" class="w2">Work</a></li>
+						  <li><a href="" rel="tag" class="w2">Food</a></li>
+						  <li><a href="" rel="tag" class="w6">Apartment</a></li>
+						  <li><a href="" rel="tag" class="w9">Car</a></li>
+						  <li><a href="" rel="tag" class="w2">Movies</a></li>
+						  <li><a href="" rel="tag" class="w5">Laundry</a></li>
+						  <li><a href="" rel="tag" class="w1">Friends</a></li>
+						  <li><a href="" rel="tag" class="w2">Family</a></li>
+						  <li><a href="" rel="tag" class="w4">Github</a></li>
+						</ul>
+						  
+		</div>
+
+	</div>
+		
+	
+    <footer>
+      <p>&copy; 2018 Paribartan Dhakal</p>
+	</footer>
+	
+
+
+  </body>
+</html>
