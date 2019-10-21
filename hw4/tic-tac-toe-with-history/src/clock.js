@@ -1,5 +1,8 @@
+//help is taken from https://medium.com/the-andela-way/create-a-pure-css-clock-with-svg-f123bcc41e46
+
+
 import React, { Component } from 'react'
-import './clock.css';
+import './clock.css'; //help is taken from https://medium.com/the-andela-way/create-a-pure-css-clock-with-svg-f123bcc41e46
 
 export default class Clock extends Component {
 
