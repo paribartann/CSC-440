@@ -1,0 +1,22 @@
+html{
+  margin: 10px;
+  height: 100%;
+  background: radial-gradient(ellipse farthest-corner at 90% 90%,
+   #3AD2FF 30%, #0FFFFF 40%, #F5FCFF);
+}
+
+body {
+  margin: 5%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

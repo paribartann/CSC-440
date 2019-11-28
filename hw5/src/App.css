@@ -1,0 +1,13 @@
+.App {
+  width: 90%;
+  margin: auto;
+}
+
+
+.headerTitle {
+  text-align: center;
+}
+
+.App-link {
+  color: #09d3ac;
+}
